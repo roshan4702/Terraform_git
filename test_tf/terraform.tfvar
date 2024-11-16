@@ -1,0 +1,20 @@
+variable "numbervar" {
+ default = 12
+ type    = number
+} 
+
+variable "stringvar" {
+ default = "roshan123.txt"
+ type    = string
+}
+
+variable "boolvar" {
+ default = true
+ type    = bool
+}
+
+variable "anyvar" {
+ default = "ros12.txt"
+ type    = any
+}
+
